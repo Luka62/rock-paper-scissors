@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <script>
+
+        /* make a function
+           make an array with 3 strings called Rock, Paper and Scissors
+           return random string from that array by using Math.floor on
+           Math.random and multiplying it with number of array items
+           which gives 0,1,2, which represents Rock, Paper or Scissors.
+        */
+        function getComputerChoice() {
+            const choice = ['Rock', 'Paper', 'Scissors'];
+            return choice[Math.floor(Math.random() * choice.length)];
+        }
+        getComputerChoice();
+
+        function playRound(playerSelection, computerSelection) {
+            
+        }
+
+    </script>
+</body>
+</html>
